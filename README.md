@@ -1,7 +1,12 @@
 # RFC-PTRs
 Rockcliffe Algonquin PTR conversion macros for Excel
 
+## Introduction 
+
+The PTRs in FSP are exported as Excel files in a non-PTR format. These macros will let you view and print them in the proper format.
+
 - [RFC-PTRs](#rfc-ptrs)
+  - [Introduction](#introduction)
   - [Installation](#installation)
   - [Unblocking the files](#unblocking-the-files)
   - [Setting up the addin in Excel](#setting-up-the-addin-in-excel)
