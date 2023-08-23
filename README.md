@@ -11,6 +11,7 @@ The PTRs in FSP are exported as Excel files in a non-PTR format. These macros wi
   - [Unblocking the files](#unblocking-the-files)
   - [Setting up the addin in Excel](#setting-up-the-addin-in-excel)
   - [Exporting your Algonquin PTR from Flight Schedule Pro](#exporting-your-algonquin-ptr-from-flight-schedule-pro)
+  - [Making changes to the macros](#making-changes-to-the-macros)
 
 ## Installation
 
@@ -83,3 +84,8 @@ You should now have a printable PTR in PTR format
 ![manage addins](images/final.png)
 
 
+## Making changes to the macros
+
+The code for the 2 buttons is version controlled under customUI14.xml but it needs to be added to the RFCAddIn.xlam file. I used Office RibbonX Editor which can be found at : https://github.com/fernandreu/office-ribbonx-editor
+
+The code for the 2 macros is version controlled in RFCModule.bas. This code needs to be imported into Rockcliffe_Report_Macro.xlsm in the script editor from Excel (Alt+F11).
